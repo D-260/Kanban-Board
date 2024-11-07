@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.kanban-board {
+    display: flex;
+    gap: 20px;
+}
+
+.kanban-column {
+    width: 300px;
+    border: 1px solid #ccc;
+	box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.kanban-tasks {
+    min-height: 100px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.kanban-task {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: grab;
+}
